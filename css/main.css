@@ -110,7 +110,7 @@ EDUCATION
   padding: 1em 0;
   list-style: none;
 }
-#education:before {
+/*#education:before {
   width: 5px;
   height: 100%;
   position: absolute;
@@ -126,7 +126,7 @@ EDUCATION
   background: -ms-linear-gradient(top,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
   background: linear-gradient(to bottom,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
-}
+}*/
 #education li{
   width: 100%;
   z-index: 2;
@@ -153,7 +153,7 @@ EDUCATION
 #education .description:after {
   content: '';
   position: absolute;
-  top: 15px;
+  top: 12px;
   right: 0;
   left: -16px;
   height: 0;
