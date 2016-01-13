@@ -1,4 +1,4 @@
-System.register(['angular2/core'], function(exports_1) {
+System.register(['angular2/core', './components/headline.component', './components/about.component'], function(exports_1) {
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
         var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
         if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -8,29 +8,35 @@ System.register(['angular2/core'], function(exports_1) {
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1;
-    var AppComponent;
+    var core_1, headline_component_1, about_component_1;
+    var ProfileComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
+            },
+            function (headline_component_1_1) {
+                headline_component_1 = headline_component_1_1;
+            },
+            function (about_component_1_1) {
+                about_component_1 = about_component_1_1;
             }],
         execute: function() {
-            AppComponent = (function () {
-                function AppComponent() {
-                    this.name = 'Spyros Ioakeimidis';
+            ProfileComponent = (function () {
+                function ProfileComponent() {
                 }
-                AppComponent = __decorate([
+                ProfileComponent = __decorate([
                     core_1.Component({
-                        selector: 'headline',
-                        template: '<h1>Hello,<br> my name is <span>{{ name }}</span> and this is my resume</h1>'
+                        selector: 'profile-app',
+                        directives: [headline_component_1.HeadlineComponent, about_component_1.AboutComponent],
+                        templateUrl: 'app/profile.html'
                     }), 
                     __metadata('design:paramtypes', [])
-                ], AppComponent);
-                return AppComponent;
+                ], ProfileComponent);
+                return ProfileComponent;
             })();
-            exports_1("AppComponent", AppComponent);
+            exports_1("ProfileComponent", ProfileComponent);
         }
     }
 });
-//# sourceMappingURL=app.component.js.map
+//# sourceMappingURL=profile.component.js.map
