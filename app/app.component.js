@@ -18,11 +18,12 @@ System.register(['angular2/core'], function(exports_1) {
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
+                    this.name = 'Spyros Ioakeimidis';
                 }
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'headline',
-                        template: '<h1>Hello,<br> my name is <span>Spyros Ioakeimidis</span> and this is my resume</h1>'
+                        template: '<h1>Hello,<br> my name is <span>{{ name }}</span> and this is my resume</h1>'
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
