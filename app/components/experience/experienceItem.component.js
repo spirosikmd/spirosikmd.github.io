@@ -22,7 +22,19 @@ System.register(['angular2/core'], function(exports_1) {
                 __decorate([
                     core_1.Input(), 
                     __metadata('design:type', Object)
-                ], ExperienceItemComponent.prototype, "item", void 0);
+                ], ExperienceItemComponent.prototype, "where", void 0);
+                __decorate([
+                    core_1.Input(), 
+                    __metadata('design:type', Object)
+                ], ExperienceItemComponent.prototype, "from", void 0);
+                __decorate([
+                    core_1.Input(), 
+                    __metadata('design:type', Object)
+                ], ExperienceItemComponent.prototype, "to", void 0);
+                __decorate([
+                    core_1.Input(), 
+                    __metadata('design:type', Object)
+                ], ExperienceItemComponent.prototype, "who", void 0);
                 ExperienceItemComponent = __decorate([
                     core_1.Component({
                         selector: 'experience-item',

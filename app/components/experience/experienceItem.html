@@ -1,10 +1,12 @@
 <div class="job clearfix">
   <div class="col-xs-3">
-    <div class="where">{{item.where}}</div>
-    <div class="when">{{item.when.from | date:'MMM y'}} - {{item.when.to | date:'MMM y'}}</div>
+    <div class="where">{{where}}</div>
+    <div class="when">{{from}} - {{to}}</div>
   </div>
   <div class="col-xs-9">
-    <div class="profession">{{item.who}}</div>
-    <div class="description">{{item.what}}</div>
+    <div class="profession">{{who}}</div>
+    <div class="description">
+      <ng-content></ng-content>
+    </div>
   </div>
 </div>

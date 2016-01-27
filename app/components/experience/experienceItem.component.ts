@@ -5,5 +5,8 @@ import {Component, Input} from 'angular2/core';
     templateUrl: 'app/components/experience/experienceItem.html'
 })
 export class ExperienceItemComponent {
-    @Input() item;
+    @Input() where;
+    @Input() from;
+    @Input() to;
+    @Input() who;
 }

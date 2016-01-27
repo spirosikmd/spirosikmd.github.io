@@ -1,6 +1,34 @@
 <div class="box">
   <h2>{{title}}</h2>
-  <template ngFor #item [ngForOf]="items">
-    <experience-item [item]="item"></experience-item>
-  </template>
+
+  <experience-item where="Usabilla" from="Feb 2015" to="Jan 2016" who="Full-stack Software Engineer">
+    Development on the full <a href="http://usabilla.com" target="_blank">Usabilla</a> stack.
+  </experience-item>
+
+  <experience-item where="Paylogic" from="Aug 2013" to="Jan 2015" who="Full-stack Software Engineer">
+    <ul class="list-unstyled">
+      <li><a target="_blank" href="http://paylogic.com">Paylogic International</a> specializes in Ticketing SaaS.</li>
+      <li>Design and development of projects for the core component and ticketing APIs. Python; Flask; Django; MySQL;
+        SQLAlchemy; pytest
+      </li>
+      <li>Software engineering best practices (e.g. functional and unit testing, code reviews, design and code
+        documentation).
+      </li>
+    </ul>
+  </experience-item>
+
+  <experience-item where="SEARCH group" from="Feb 2013" to="Aug 2013" who="Software Engineer">
+    Design and implementation of tool support (based on previous research of <a target="_blank"
+                                                                                href="http://www.cs.rug.nl/search/">SEARCH</a>
+    group) for the documentation of architectural decisions and traceability to other design elements. C#
+  </experience-item>
+
+  <experience-item where="SEARCH group" from="Apr 2012" to="Jul 2012" who="Software Engineer">
+    Design, implementation, and testing of tool support for decision making, based on the Repertory Grid Technique.
+    Python; Django; MySQL
+  </experience-item>
+
+  <experience-item where="Lafarge Greece" from="Mar 2010" to="Dec 2010" who="Engineer of Automation">
+    Development and maintenance of SCADA, PLC, and .NET apps.
+  </experience-item>
 </div>
