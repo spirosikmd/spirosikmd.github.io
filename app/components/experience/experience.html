@@ -1,15 +1,6 @@
 <div class="box">
   <h2>{{title}}</h2>
-  <div *ngFor="#item of items">
-    <div class="job clearfix">
-      <div class="col-xs-3">
-        <div class="where">{{item.where}}</div>
-        <div class="when">{{item.when.from | date:'MMM y'}} - {{item.when.to | date:'MMM y'}}</div>
-      </div>
-      <div class="col-xs-9">
-        <div class="profession">{{item.who}}</div>
-        <div class="description">{{item.what}}</div>
-      </div>
-    </div>
-  </div>
+  <template ngFor #item [ngForOf]="items">
+    <experience-item [item]="item"></experience-item>
+  </template>
 </div>

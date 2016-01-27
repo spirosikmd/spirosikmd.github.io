@@ -22,10 +22,10 @@ System.register(['angular2/core'], function(exports_1) {
                 __decorate([
                     core_1.Input(), 
                     __metadata('design:type', Object)
-                ], ExperienceItemComponent.prototype, "model", void 0);
+                ], ExperienceItemComponent.prototype, "item", void 0);
                 ExperienceItemComponent = __decorate([
                     core_1.Component({
-                        selector: 'experienceItem',
+                        selector: 'experience-item',
                         templateUrl: 'app/components/experience/experienceItem.html'
                     }), 
                     __metadata('design:paramtypes', [])

@@ -1,10 +1,10 @@
 <div class="job clearfix">
   <div class="col-xs-3">
     <div class="where">{{item.where}}</div>
-    <div class="year">{{item.year}}</div>
+    <div class="when">{{item.when.from | date:'MMM y'}} - {{item.when.to | date:'MMM y'}}</div>
   </div>
   <div class="col-xs-9">
-    <div class="profession">{{item.profession}}</div>
-    <div class="description">{{item.description}}</div>
+    <div class="profession">{{item.who}}</div>
+    <div class="description">{{item.what}}</div>
   </div>
 </div>
