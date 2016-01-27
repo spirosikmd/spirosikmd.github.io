@@ -26,7 +26,7 @@ System.register(['angular2/core'], function(exports_1) {
                 ExperienceItemComponent = __decorate([
                     core_1.Component({
                         selector: 'experienceItem',
-                        template: '<div>{{model}}</div>'
+                        templateUrl: 'app/components/experience/experienceItem.html'
                     }), 
                     __metadata('design:paramtypes', [])
                 ], ExperienceItemComponent);

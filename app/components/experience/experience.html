@@ -1,71 +1,15 @@
 <div class="box">
   <h2>{{title}}</h2>
-  <experience-item *ngFor="#item of items" [model]="item"></experience-item>
-  <!--<div class="job clearfix">-->
-    <!--<div class="col-xs-3">-->
-      <!--<div class="where">Paylogic</div>-->
-      <!--<div class="year">October 2013 - January 2015</div>-->
-    <!--</div>-->
-    <!--<div class="col-xs-9">-->
-      <!--<div class="profession">Full-stack Software Engineer</div>-->
-      <!--<div class="description">-->
-        <!--<ul class="list-unstyled">-->
-          <!--<li><a target="_blank" href="http://paylogic.com">Paylogic International</a> specializes in-->
-            <!--Ticketing-->
-            <!--SaaS.-->
-          <!--</li>-->
-          <!--<li>Design and development of projects for the core component and ticketing APIs. Python; Flask;-->
-            <!--Django;-->
-            <!--MySQL; SQLAlchemy; pytest-->
-          <!--</li>-->
-          <!--<li>Software engineering best practices (e.g. functional and unit testing, code reviews, design-->
-            <!--and-->
-            <!--code-->
-            <!--documentation).-->
-          <!--</li>-->
-        <!--</ul>-->
-      <!--</div>-->
-    <!--</div>-->
-  <!--</div>-->
-  <!--<div class="job clearfix">-->
-    <!--<div class="col-xs-3">-->
-      <!--<div class="where">SEARCH group</div>-->
-      <!--<div class="year">February 2013 - August 2013</div>-->
-    <!--</div>-->
-    <!--<div class="col-xs-9">-->
-      <!--<div class="profession">Software Engineer</div>-->
-      <!--<div class="description">Design and implementation of tool support (based on previous research of <a-->
-          <!--target="_blank" href="http://www.cs.rug.nl/search/">SEARCH</a> group) for the documentation of-->
-        <!--architectural decisions and traceability to other design elements. C#-->
-      <!--</div>-->
-    <!--</div>-->
-  <!--</div>-->
-  <!--<div class="job clearfix">-->
-    <!--<div class="col-xs-3">-->
-      <!--<div class="where">SEARCH group</div>-->
-      <!--<div class="year">April 2012 - July 2012</div>-->
-    <!--</div>-->
-    <!--<div class="col-xs-9">-->
-      <!--<div class="profession">Software Engineer</div>-->
-      <!--<div class="description">Design, implementation, and testing of tool support for decision making,-->
-        <!--based-->
-        <!--on-->
-        <!--the Repertory Grid Technique. Python; Django; MySQL-->
-      <!--</div>-->
-    <!--</div>-->
-  <!--</div>-->
-  <!--<div class="job clearfix">-->
-    <!--<div class="col-xs-3">-->
-      <!--<div class="where">Lafarge Greece</div>-->
-      <!--<div class="year">March 2010 - December 2010</div>-->
-    <!--</div>-->
-    <!--<div class="col-xs-9">-->
-      <!--<div class="profession">Engineer of Automation</div>-->
-      <!--<div class="description">-->
-        <!--<ul class="list-unstyled">-->
-          <!--<li>Development and maintenance of SCADA, PLC, and .NET apps.</li>-->
-        <!--</ul>-->
-      <!--</div>-->
-    <!--</div>-->
-  <!--</div>-->
+  <div *ngFor="#item of items">
+    <div class="job clearfix">
+      <div class="col-xs-3">
+        <div class="where">{{item.where}}</div>
+        <div class="when">{{item.when.from | date:'MMM y'}} - {{item.when.to | date:'MMM y'}}</div>
+      </div>
+      <div class="col-xs-9">
+        <div class="profession">{{item.who}}</div>
+        <div class="description">{{item.what}}</div>
+      </div>
+    </div>
+  </div>
 </div>
