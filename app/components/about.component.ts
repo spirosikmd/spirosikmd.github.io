@@ -4,7 +4,7 @@ import {ContactComponent} from './contact.component';
 import {SkillsComponent} from './skills.component';
 import {LanguagesComponent} from './languages.component';
 import {HobbiesComponent} from './hobbies.component';
-import {EducationComponent} from './education.component';
+import {EducationComponent} from './education/education.component';
 
 @Component({
     selector: 'about',
