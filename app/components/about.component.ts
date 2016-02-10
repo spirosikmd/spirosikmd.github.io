@@ -1,6 +1,6 @@
 import {Component} from 'angular2/core';
 import {ExperienceComponent} from './experience/experience.component';
-import {ContactComponent} from './contact.component';
+import {ContactComponent} from './contact/contact.component';
 import {SkillsComponent} from './skills.component';
 import {LanguagesComponent} from './languages.component';
 import {HobbiesComponent} from './hobbies.component';
