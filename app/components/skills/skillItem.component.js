@@ -9,27 +9,31 @@ System.register(['angular2/core'], function(exports_1) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1;
-    var SkillsComponent;
+    var SkillItemComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
-            SkillsComponent = (function () {
-                function SkillsComponent() {
+            SkillItemComponent = (function () {
+                function SkillItemComponent() {
                 }
-                SkillsComponent = __decorate([
+                __decorate([
+                    core_1.Input(), 
+                    __metadata('design:type', Object)
+                ], SkillItemComponent.prototype, "value", void 0);
+                SkillItemComponent = __decorate([
                     core_1.Component({
-                        selector: 'skills',
-                        templateUrl: 'app/components/skills.html'
+                        selector: 'skill-item',
+                        templateUrl: 'app/components/skills/skillItem.html'
                     }), 
                     __metadata('design:paramtypes', [])
-                ], SkillsComponent);
-                return SkillsComponent;
+                ], SkillItemComponent);
+                return SkillItemComponent;
             })();
-            exports_1("SkillsComponent", SkillsComponent);
+            exports_1("SkillItemComponent", SkillItemComponent);
         }
     }
 });
-//# sourceMappingURL=skills.component.js.map
+//# sourceMappingURL=skillItem.component.js.map
