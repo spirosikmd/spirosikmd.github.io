@@ -3,7 +3,7 @@ import {ExperienceComponent} from './experience/experience.component';
 import {ContactComponent} from './contact/contact.component';
 import {SkillsComponent} from './skills/skills.component';
 import {LanguagesComponent} from './languages.component';
-import {HobbiesComponent} from './hobbies.component';
+import {HobbiesComponent} from './hobbies/hobbies.component';
 import {EducationComponent} from './education/education.component';
 
 @Component({

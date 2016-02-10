@@ -9,27 +9,31 @@ System.register(['angular2/core'], function(exports_1) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1;
-    var HobbiesComponent;
+    var HobbyItemComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
-            HobbiesComponent = (function () {
-                function HobbiesComponent() {
+            HobbyItemComponent = (function () {
+                function HobbyItemComponent() {
                 }
-                HobbiesComponent = __decorate([
+                __decorate([
+                    core_1.Input(), 
+                    __metadata('design:type', Object)
+                ], HobbyItemComponent.prototype, "value", void 0);
+                HobbyItemComponent = __decorate([
                     core_1.Component({
-                        selector: 'hobbies',
-                        templateUrl: 'app/components/hobbies.html'
+                        selector: 'hobby-item',
+                        templateUrl: 'app/components/hobbies/hobbyItem.html'
                     }), 
                     __metadata('design:paramtypes', [])
-                ], HobbiesComponent);
-                return HobbiesComponent;
+                ], HobbyItemComponent);
+                return HobbyItemComponent;
             })();
-            exports_1("HobbiesComponent", HobbiesComponent);
+            exports_1("HobbyItemComponent", HobbyItemComponent);
         }
     }
 });
-//# sourceMappingURL=hobbies.component.js.map
+//# sourceMappingURL=hobbyItem.component.js.map
