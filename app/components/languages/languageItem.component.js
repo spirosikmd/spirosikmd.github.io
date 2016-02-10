@@ -9,27 +9,31 @@ System.register(['angular2/core'], function(exports_1) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1;
-    var LanguagesComponent;
+    var LanguageItemComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
-            LanguagesComponent = (function () {
-                function LanguagesComponent() {
+            LanguageItemComponent = (function () {
+                function LanguageItemComponent() {
                 }
-                LanguagesComponent = __decorate([
+                __decorate([
+                    core_1.Input(), 
+                    __metadata('design:type', Object)
+                ], LanguageItemComponent.prototype, "value", void 0);
+                LanguageItemComponent = __decorate([
                     core_1.Component({
-                        selector: 'languages',
-                        templateUrl: 'app/components/languages.html'
+                        selector: 'language-item',
+                        templateUrl: 'app/components/languages/languageItem.html'
                     }), 
                     __metadata('design:paramtypes', [])
-                ], LanguagesComponent);
-                return LanguagesComponent;
+                ], LanguageItemComponent);
+                return LanguageItemComponent;
             })();
-            exports_1("LanguagesComponent", LanguagesComponent);
+            exports_1("LanguageItemComponent", LanguageItemComponent);
         }
     }
 });
-//# sourceMappingURL=languages.component.js.map
+//# sourceMappingURL=languageItem.component.js.map
