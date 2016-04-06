@@ -8,4 +8,5 @@ import {ExperienceItemComponent} from './experienceItem.component';
 })
 export class ExperienceComponent {
     title = 'Experience';
+    now = new Date();
 }
