@@ -1,12 +1,10 @@
-import {Component} from 'angular2/core';
-import {ExperienceItemComponent} from './experienceItem.component';
+import {Component} from '@angular/core';
 
 @Component({
-    selector: 'experience',
-    directives: [ExperienceItemComponent],
-    templateUrl: 'app/components/experience/experience.html'
+  selector: 'experience',
+  templateUrl: 'app/components/experience/experience.html'
 })
 export class ExperienceComponent {
-    title = 'Experience';
-    now = new Date();
+  title = 'Experience';
+  now = new Date();
 }

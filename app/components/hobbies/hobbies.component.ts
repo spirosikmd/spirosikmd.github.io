@@ -1,11 +1,9 @@
-import {Component} from 'angular2/core';
-import {HobbyItemComponent} from "./hobbyItem.component";
+import {Component} from '@angular/core';
 
 @Component({
-    selector: 'hobbies',
-    directives: [HobbyItemComponent],
-    templateUrl: 'app/components/hobbies/hobbies.html'
+  selector: 'hobbies',
+  templateUrl: 'app/components/hobbies/hobbies.html'
 })
 export class HobbiesComponent {
-    title = 'Hobbies';
+  title = 'Hobbies';
 }

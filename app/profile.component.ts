@@ -1,11 +1,8 @@
-import {Component} from 'angular2/core';
-import {HeadlineComponent} from './components/headline.component';
-import {AboutComponent} from './components/about.component';
+import {Component} from '@angular/core';
 
 @Component({
-    selector: 'profile-app',
-    directives: [HeadlineComponent, AboutComponent],
-    templateUrl: 'app/profile.html'
+  selector: 'profile-app',
+  templateUrl: 'app/profile.html'
 })
 export class ProfileComponent {
 }

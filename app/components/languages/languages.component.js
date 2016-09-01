@@ -1,4 +1,4 @@
-System.register(['angular2/core', "./languageItem.component"], function(exports_1, context_1) {
+System.register(['@angular/core'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,15 +10,12 @@ System.register(['angular2/core', "./languageItem.component"], function(exports_
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, languageItem_component_1;
+    var core_1;
     var LanguagesComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
-            },
-            function (languageItem_component_1_1) {
-                languageItem_component_1 = languageItem_component_1_1;
             }],
         execute: function() {
             LanguagesComponent = (function () {
@@ -28,7 +25,6 @@ System.register(['angular2/core', "./languageItem.component"], function(exports_
                 LanguagesComponent = __decorate([
                     core_1.Component({
                         selector: 'languages',
-                        directives: [languageItem_component_1.LanguageItemComponent],
                         templateUrl: 'app/components/languages/languages.html'
                     }), 
                     __metadata('design:paramtypes', [])

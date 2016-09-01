@@ -1,11 +1,9 @@
-import {Component} from 'angular2/core';
-import {SkillItemComponent} from "./skillItem.component";
+import {Component} from '@angular/core';
 
 @Component({
-    selector: 'skills',
-    directives: [SkillItemComponent],
-    templateUrl: 'app/components/skills/skills.html'
+  selector: 'skills',
+  templateUrl: 'app/components/skills/skills.html'
 })
 export class SkillsComponent {
-    title = 'Skills';
+  title = 'Skills';
 }

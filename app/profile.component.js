@@ -1,4 +1,4 @@
-System.register(['angular2/core', './components/headline.component', './components/about.component'], function(exports_1, context_1) {
+System.register(['@angular/core'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,18 +10,12 @@ System.register(['angular2/core', './components/headline.component', './componen
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, headline_component_1, about_component_1;
+    var core_1;
     var ProfileComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
-            },
-            function (headline_component_1_1) {
-                headline_component_1 = headline_component_1_1;
-            },
-            function (about_component_1_1) {
-                about_component_1 = about_component_1_1;
             }],
         execute: function() {
             ProfileComponent = (function () {
@@ -30,7 +24,6 @@ System.register(['angular2/core', './components/headline.component', './componen
                 ProfileComponent = __decorate([
                     core_1.Component({
                         selector: 'profile-app',
-                        directives: [headline_component_1.HeadlineComponent, about_component_1.AboutComponent],
                         templateUrl: 'app/profile.html'
                     }), 
                     __metadata('design:paramtypes', [])

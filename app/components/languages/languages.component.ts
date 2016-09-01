@@ -1,11 +1,9 @@
-import {Component} from 'angular2/core';
-import {LanguageItemComponent} from "./languageItem.component";
+import {Component} from '@angular/core';
 
 @Component({
-    selector: 'languages',
-    directives: [LanguageItemComponent],
-    templateUrl: 'app/components/languages/languages.html'
+  selector: 'languages',
+  templateUrl: 'app/components/languages/languages.html'
 })
 export class LanguagesComponent {
-    title = 'Languages';
+  title = 'Languages';
 }

@@ -2,10 +2,10 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 
 var vendor = [
-  'node_modules/angular2/bundles/angular2-polyfills.js',
-  'node_modules/systemjs/dist/system.src.js',
-  'node_modules/rxjs/bundles/Rx.js',
-  'node_modules/angular2/bundles/angular2.dev.js'
+  'node_modules/core-js/client/shim.min.js',
+  'node_modules/zone.js/dist/zone.min.js',
+  'node_modules/reflect-metadata/Reflect.js',
+  'node_modules/systemjs/dist/system.src.js'
 ];
 
 gulp.task('vendor', function () {
