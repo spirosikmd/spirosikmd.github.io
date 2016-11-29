@@ -44,10 +44,6 @@ h2 {
     color: #3e3e3e;
 }
 
-.fa:hover {
-    text-decoration: underline;
-}
-
 .social-link {
     display: inline-block;
 }
@@ -58,10 +54,6 @@ h2 {
 
 .social-link a {
     font-size: 30px;
-}
-
-.social-link a:focus .fa {
-    text-decoration: underline;
 }
 
 .footer {
