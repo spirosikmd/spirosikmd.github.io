@@ -77,7 +77,7 @@ h2 {
     padding: 5px 0;
     display: inline-block;
     animation-name: show-in;
-    animation-duration: 0.1s;
+    animation-duration: 0.2s;
     animation-timing-function: ease-out;
     animation-delay: 0s;
     animation-direction: alternate;
