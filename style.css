@@ -1,36 +1,24 @@
+@import 'node_modules/source-code-pro/dist/source-code-pro.css';
+
 body {
-    font-family: 'Quicksand', sans-serif;
-    color: #3e3e3e;
+    font-family: 'Source Code Pro', sans-serif;
+    color: #6DC2C2;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+    background-color: #263238;
 }
 
-button {
-    background: none;
-    border: 0;
-    color: inherit;
-    font: inherit;
-    line-height: normal;
-    overflow: visible;
-    padding: 0;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    outline: none;
+.color--purple {
+    color: #C792EA;
 }
 
-h1 {
-    font-size: 60px;
-}
-
-h2 {
-    font-size: 30px;
+.color--green {
+    color: #FFCB6B;
 }
 
 .center-container {
     position: relative;
     height: 100vh;
-    margin-top: -135px;
     margin-bottom: -40px;
 }
 
@@ -53,113 +41,8 @@ h2 {
     margin-bottom: 20px;
 }
 
-.fa {
-    color: #d0d0d0;
-}
-
-.social-links {
-    display: none;
-    height: 40px;
-    width: 40px;
-    margin: 40px auto;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
-
-    animation-name: stretch-in;
-    animation-duration: 0.1s;
-    animation-timing-function: ease-out;
-    animation-delay: 0s;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
-}
-
-.social-link {
-    padding: 5px 0;
-    display: inline-block;
-    animation-name: show-in;
-    animation-duration: 0.2s;
-    animation-timing-function: ease-out;
-    animation-delay: 0s;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
-}
-
-.social-link:not(:first-child) {
-    margin-left: 30px;
-}
-
-.social-link a {
-    font-size: 30px;
-}
-
 .footer {
     line-height: 40px;
-    font-size: 14px;
-}
-
-.link-chooser {
-    height: 40px;
-    width: 40px;
-    margin: 40px auto;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
-    animation-duration: 0.1s;
-    animation-timing-function: ease-out;
-    animation-delay: 0s;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
-}
-
-.social-link .fa-github {
-    color: #333333;
-}
-
-.social-link .fa-twitter {
-    color: #2AA3EF;
-}
-
-.social-link .fa-linkedin {
-    color: #2A85BA;
-}
-
-@keyframes stretch-in {
-    100% {
-        width: 200px;
-        border-radius: 3px;
-    }
-}
-
-@keyframes stretch-out {
-    from {
-        width: 200px;
-        border-radius: 3px;
-    }
-    to {
-        width: 40px;
-        border-radius: 50%;
-    }
-}
-
-@keyframes show-in {
-    0% {
-        transform: scale(0);
-    }
-    40% {
-        transform: scale(0);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-@keyframes show-out {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(0);
-    }
+    font-size: 12px;
+    color: #686868;
 }
