@@ -1,4 +1,4 @@
-@import 'node_modules/source-code-pro/dist/source-code-pro.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 body {
     font-family: 'Source Code Pro', sans-serif;
