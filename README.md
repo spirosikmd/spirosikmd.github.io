@@ -1,5 +1,5 @@
 # spyros.io
 
-Developer @ [Usabilla](https://usabilla.com)
+Engineer @ [Usabilla](https://usabilla.com)
 
-Fan of JavaScript and Node.
+I have this thing with software.
