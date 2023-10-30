@@ -1,43 +1,43 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
 
 body {
-    font-family: 'Source Code Pro', sans-serif;
-    color: #6DC2C2;
-    text-align: center;
-    font-size: 16px;
-    background-color: #263238;
+  font-family: "Source Code Pro", sans-serif;
+  color: #6dc2c2;
+  text-align: center;
+  font-size: 16px;
+  background-color: #263238;
 }
 
 .color--purple {
-    color: #C792EA;
+  color: #c792ea;
 }
 
 .color--green {
-    color: #FFCB6B;
+  color: #ffcb6b;
 }
 
 .main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin-bottom: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-bottom: -40px;
 }
 
 .margin-top {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .margin-top--large {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .margin-bottom {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer {
-    line-height: 40px;
-    font-size: 12px;
-    color: #686868;
+  line-height: 40px;
+  font-size: 12px;
+  color: #686868;
 }
