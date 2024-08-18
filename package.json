@@ -6,9 +6,11 @@
     "url": "https://github.com/spirosikmd/spirosikmd.github.io"
   },
   "scripts": {
-    "start": "http-server -p 8080"
+    "start": "http-server -p 8080",
+    "login": "netlify login"
   },
   "devDependencies": {
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "netlify-cli": "^17.34.1"
   }
 }
