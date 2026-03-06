@@ -5,7 +5,7 @@
     "url": "https://github.com/spirosikmd/spirosikmd.github.io"
   },
   "scripts": {
-    "start": "http-server docs -p 8080"
+    "start": "http-server -p 8080"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
